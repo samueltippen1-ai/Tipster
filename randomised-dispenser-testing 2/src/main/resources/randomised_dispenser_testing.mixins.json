@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "package": "dev.randomised.dispensertest.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DispenserBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

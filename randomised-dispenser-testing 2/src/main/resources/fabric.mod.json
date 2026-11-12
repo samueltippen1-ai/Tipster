@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "randomised_dispenser_testing",
+  "version": "${version}",
+  "name": "Randomised Dispenser Testing",
+  "description": "Single-player testing tool for dispenser/dropper mechanics: detects a two-container + lever arrangement, tracks inspections and computes randomised outcomes.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.randomised.dispensertest.RandomisedDispenserClient"]
+  },
+  "mixins": ["randomised_dispenser_testing.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
